@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory12613"
+		},
+		"AzureSynapseAnalytics1_password": {
+			"value": ""
+		},
+		"LS_ADLS_NYCPayroll_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_NYCPayroll2021_connectionString": {
+			"value": ""
+		},
+		"LS_Syn_accountKey": {
+			"value": ""
+		},
+		"AzureSynapseAnalytics1_properties_typeProperties_server": {
+			"value": "my-synapse-ondemand.sql.azuresynapse.net"
+		},
+		"AzureSynapseAnalytics1_properties_typeProperties_database": {
+			"value": "udacity"
+		},
+		"AzureSynapseAnalytics1_properties_typeProperties_userName": {
+			"value": "Azure-rashed"
+		},
+		"LS_ADLS_NYCPayroll_properties_typeProperties_url": {
+			"value": "https://storageacc27810.dfs.core.windows.net/"
+		},
+		"LS_Syn_properties_typeProperties_url": {
+			"value": "https://synnndatalake.dfs.core.windows.net/"
+		}
+	}
+}
